@@ -1,0 +1,35 @@
+h1 {
+    
+}
+
+body {
+    
+    min-height: 100vh;
+    padding-top: 20vh;
+}
+
+.wrapp {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0.25rem;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+.bg{
+    background: #ec008c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.line {
+  text-decoration: line-through;
+}
+.label {
+  min-width: 100px;
+  display: inline-block;
+  padding-right: 0.75rem;
+
+}
